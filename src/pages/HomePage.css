@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Taskbar */
+  .taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b5;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .taskbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .taskbar .menu-icons span {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  
+  /* Content */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Suggestions Section */
+  .suggestions {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .suggestions h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .profile-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+  }
+  
+  .profile-card h3 {
+    margin: 10px 0;
+  }
+  
+  .profile-card button {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .profile-card button:hover {
+    background-color: #005983;
+  }
+  
+  /* Chatbot Section */
+  .chatbot {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .chatbot-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .chatbot p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .chatbot:hover {
+    background-color: #f0f8ff;
+  }
+  
